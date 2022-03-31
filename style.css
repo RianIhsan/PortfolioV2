@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(185deg, #1facfd, #28688d);
+    padding: 0;
+    margin: 0;
+    font-family: 'comic neue';
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(header2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #206faf5e;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0 5%;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    margin: 30px;
+    text-decoration: none;
+    color: #fff2f2;
+    font-size: 18px;
+    font-family: 'comic neue';
+}
+.container{
+    padding-top: 80px;
+    color: #fff2f2;
+}
+.active {
+    border-bottom: 2px solid;
+}
+.download-btn{
+    background: #1facfd;
+    font-weight: 400;
+    padding: 5px 25px;
+    border-radius: 15px;
+    transition: .5% ease;
+}
+.download-btn:hover{
+    color: #000;
+}
+.text-container{
+    position: absolute;
+    left: 18%;
+    top: 42%;
+    line-height: 12px;
+    transform: translate(-13%, -42%);
+}
+.text-container p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff2f2;
+}
+.text-container p:nth-child(2){
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff2f2;
+}
+.text-container p:nth-child(3){
+    font-size: 30px;
+    color: #fff2f2;
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+.hire-btn{
+    color: #373636;
+    border: none;
+    transition: .5% ease;
+    cursor: pointer;
+}
+.hire-btn:hover{
+    color: #1facfd;
+}
+.down-btn{
+    background-color: #1facfd;
+    color: #fff;
+    border: none;
+    transition: .5% ease;
+    cursor: pointer;
+}
+.down-btn:hover{
+    background: transparent;
+    border: 2px solid #1facfd;
+}
+.avatar{
+    height: 560px;
+    position: absolute;
+    left: 85%;
+    top: 17%;
+    transform: translate(-70%);
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0),
+                5px 5px 5px rgba(0, 0, 0, 0),
+                15px 15px 15px rgba(0, 0, 0, 2);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mysosmed{
+    position: absolute;
+    width: 200px;
+    height: 390px;
+    left: -70px;
+    top: 548px;
+    background-image: linear-gradient(#2588ce, #394955);
+    border-top-right-radius: 275px 309px;
+    border-bottom-right-radius: 328px 627px;
+    border-bottom-left-radius: 108px 345px;
+}
+.mysosmed ul {
+    display: block;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.mysosmed ul li {
+    list-style-type: none;
+    margin-top: 30px;
+    transition: .5% ease;
+}
+.mysosmed ul li .fa{
+    font-size: 25px;
+    z-index: 1;
+    cursor: pointer;
+}
+.mysosmed ul li:hover {
+    transform: translateX(10px);
+    transition: .3s;
+}
+
